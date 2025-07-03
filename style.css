@@ -15,6 +15,8 @@ h1,h2,h3{
 .header{
     display: flex;
     flex-direction: column;
+    background-color: #000000;
+    color: white;
 }
 .navbar{
     display: flex;
@@ -62,7 +64,7 @@ ul li{
     font-weight: 640;
     margin-bottom: 20px;
 }
-button{
+.herotext button{
     padding: 10px 30px;
     border: 2px solid gray;
     border-radius: 12px;
@@ -82,6 +84,7 @@ button{
 }
 .content{      
     flex: 1;
+    background-color: white;;
 }
 .content h2{
     text-align: center;
@@ -94,6 +97,7 @@ button{
     flex-wrap: wrap;
     justify-content: center;
     margin-bottom: 120px;
+    padding: 0 90px;
 }
 .card{
     max-width: 300px;
@@ -114,7 +118,6 @@ button{
     font-size: 18px;
 }
 .rfacts{
-    border: 1px solid red;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -154,13 +157,57 @@ button{
     font-style: oblique;
     font-weight: 600;
 }
-.newsletter{
-    border: 1px solid red;
+.ncontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 90px 0;
 }
-.top , .footer{
+.newsletter{
+    background-color: #3882F6;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    align-items: center;
+    border-radius: 8px;
+    padding: 40px 85px;
+    max-width: 60%;
+}
+.newsletter h3{
+    font-size: 20px;
+    font-weight: 600;
+}
+.newsletter button{
+    background-color: #3882F6;
+    border: #F9FAF8 2px solid;
+    color: #F9FAF8;
+    border-radius: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 8px 20px;
+}
+.footer{
     background-color: #000000;
     color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 25vh;
+    gap: 35px;
 }
-.content{
-    background-color: white;
+.footer h3{
+    font-size: 25px;
+    font-weight: 600;
+}
+.contact-icon i{
+    color: gray;
+    font-size: 25px;
+    margin: 0 15px;
+    cursor: pointer;
+}
+.footer p{
+    font-size: 18px;
+    font-weight: 600;
 }
