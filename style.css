@@ -39,6 +39,10 @@ ul li{
     font-size: 18px;
     cursor: pointer;
 }
+li a{
+    text-decoration: underline hotpink;
+    color: white;
+}
 .logo{
     height: 60px;
     width: auto;
